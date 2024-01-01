@@ -1,48 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Your Name's Personal Website</title>
- <link rel="stylesheet" href="styles.css">
-</head>
-<body>
- <header>
-    <h1>Your Name</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
- </header>
+# Hydejack Starter Kit
 
- <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Write a brief introduction about yourself, including your major, year of study, and interests.</p>
-    </section>
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Project Title</h3>
-          <p>Briefly describe the project and your role in it.</p>
-        </li>
-        <!-- Add more project items as needed -->
-      </ul>
-    </section>
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. Run `bundle install` [^1]
+4. Run `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hydejack-starter-kit/>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Provide your email address and other contact information.</p>
-    </section>
- </main>
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
- <footer>
-    <p>&copy; Your Name. All rights reserved.</p>
- </footer>
-</body>
-</html>
+[^1]: Requires Bundler. Install with `gem install bundler`.
+
+[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
